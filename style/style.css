@@ -273,3 +273,30 @@ ul li a:hover{
 .icon ion-icon:hover{
     color: brown;
 }
+
+/* Existing CSS */
+/* ... */
+
+/* Media query for tablets and smaller desktops */
+@media screen and (max-width: 1024px) {
+    .navbar {
+        width: 90%; /* Adjust width to fit smaller screens */
+        /* Modify other styles as needed */
+    }
+
+    /* Adjust other elements as needed for smaller screens */
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 600px) {
+    .navbar {
+        /* Modify styles for smaller screens (e.g., reduce padding, font sizes, etc.) */
+    }
+
+    .content {
+        width: 90%; /* Adjust content width for smaller screens */
+        /* Modify other styles as needed */
+    }
+
+    /* Adjust other elements as needed for mobile screens */
+}
